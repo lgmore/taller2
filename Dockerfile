@@ -1,5 +1,5 @@
 FROM alpine:latest 
-LABEL maintainer="Russ McKendrick <russ@mckendrick.io>" 
+LABEL maintainer="Luis G. More <lg_more@yahoo.com.ar>" 
 LABEL description="This example Dockerfile installs NGINX." 
 RUN apk add --update nginx && \
         rm -rf /var/cache/apk/* && \
